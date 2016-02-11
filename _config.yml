@@ -1,31 +1,54 @@
 # User Settings | Edit there as per required
 
-title: bleu
+title: accent
+url: "http://ankitsultana.me"
+baseurl: "/bleu"
+
+# This will show up at the top of index page
 site_heading: >
     foo <span class="faded">'s blog</span>
 
 email: your@email.com
-author: bleu
+author: yourname
+# This description will show up in google search results
+# (for index page) etc.
 description: >
     bleu is, as Trump would put it, the best
 
-url: "http://ankitsultana.me"
-baseurl: "/bleu"
-twitter_username: AnkitSultana
-github_username: bk2dcradle
+# Toggle your short bio, which will displayed on your index page
+# Just toggle it and run jekyll again to see
+intro: true
+# This will be displayed in your intro
+short_bio: >
+    Welcome! This is <span class="bolder">accent</span>, a mobile friendly theme for Jekyll. The main feature of this
+    theme, apart from being minimal is that you can change the accent color. Refer the
+    <a class="underline different-highlight" href="http://ankitsultana.me/accent/documentation.html">
+        Documentation
+    </a>
+    to know how.
 
 permalink: /:title.html
 
+# keep about_stub roughly 12 words long for best results
+# This will show up at the bottom of each post
+# Note that about_footer should be true if you want
+# to see author information at the bottom of each post
+about_stub: >
+    Keep this sentence less than 14 words or it won't look that good.
+
+about_footer: true
+
+twitter_username: yourtwitter
+github_username: yourgithub
+facebook_id: yourusername
+
 favicon: true
 favicon_location: "images/favicon.ico"
-subscribe_button: true
-about_footer: true
-short_bio: Lorem Ipsum Dolor
+
 profile_picture: images/temp.jpg
 paginate: 5
 paginate_path: "/page/:num"
-tracking_id: # GA Tracking ID
-intro: false
+tracking_id: UA-69243698-7 # GA Tracking ID
 
 # Comments
 facebook_comments: true

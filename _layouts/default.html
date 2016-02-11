@@ -6,9 +6,9 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="keywords" content="blog, bleu, {{ site.author }}, {{ site.title }}, jekyll">
-    <meta name="author" content="Ankit Sultana">
-    {% if site.meta_description %}
-        {% assign desc = site.meta_description %}
+    <meta name="author" content="{{ site.author }}">
+    {% if page.description %}
+        {% assign desc = page.description %}
     {% else %}
         {% assign desc = site.description %}
     {% endif %}
@@ -18,8 +18,7 @@
         {% assign url = site.url | append: site.baseurl | append: page.url %}
     {% endif %}
     <meta name="description" content="{{ desc }}">
-    <link href='https://fonts.googleapis.com/css?family=Ubuntu:400,300,300italic,500,700' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Mono:400,300,500,700|Ubuntu:400,300,300italic,500,700|Montserrat' rel='stylesheet' type='text/css'>
     <link rel="alternate" type="application/rss+xml" title="{{ site.title }} RSS" href="/feed.xml" />
     <link rel="stylesheet" href="{{ site.baseurl }}/css/main.css">
     {% if site.favicon %}
@@ -77,5 +76,8 @@
             anchors.options.class = 'hide'
             anchors.add()
         </script>
+    {% endif %}
+    {% if site.tracking_id %}
+        {% include analytics.html %}
     {% endif %}
 </body>

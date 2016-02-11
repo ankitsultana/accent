@@ -5,15 +5,17 @@
             <img class="about-img pull-left" src="{{ site.profile_picture }}">
         </div>
         <div class="about-stub">
-            <h2 style="font-family: Montserrat">
-                {% if page.author %}
-                    {{ page.author }}
-                {% else %}
-                    {{ site.author }}
-                {% endif %}
-            </h2>
-            <p id="about-description">
-                {{ site.description }}
+            <a class="different-highlight" href="{{ site.url }}{{ site.baseurl }}/about.html">
+                <h2 style="font-family: Montserrat">
+                    {% if page.author %}
+                        {{ page.author }}
+                    {% else %}
+                        {{ site.author }}
+                    {% endif %}
+                </h2>
+            </a>
+            <p id="about-description" style="margin-top: 4px;">
+                {{ site.about_stub }}
             </p>
         </div>
     {% endif %}

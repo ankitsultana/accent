@@ -1,9 +1,9 @@
+// Font stacks
 $font-stack-one: 'ubuntu';
-$font-stack-two: 'Source Sans Pro';
 $font-stack-three: 'Montserrat';
-$code-font: 'Menlo', 'Roboto Mono';
+$code-font: 'Menlo', 'Roboto Mono', 'Roboto';
 
-// Fonts and spacing
+// Spacing and Sizes
 $base-font-size: 1.2em;
 $base-line-height: 1.5;
 $base-spacing: $base-line-height * 1em;
@@ -17,6 +17,7 @@ $big-circle-size: 30px;
 $footer-size: 230px;
 $about-image-size: 100px;
 
+// Colors
 $blue-color: #2358D1;//#ff0f00;
 $underline-color: #E1E1E1;
 $light-color: #D4D4D4;

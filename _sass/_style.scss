@@ -25,17 +25,32 @@ body {
 /* Intro
 * * * * * * * * * * * */
 #intro {
+    color: $medium-gray-color;
     text-align: center;
     font-size: 30px;
     font-family: 'Montserrat';
     @media (max-width: $break-small) {
         height: 100%;
     }
+    .bolder {
+        color: #000;
+    }
+}
+#intro-img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 2px solid $blue-color;
 }
 
 /* Links
 * * * * * * * * * * * */
 
+
+.disabled:hover {
+    color: inherit;
+    background: inherit;
+}
 .hide {
     display: none;
 }
@@ -63,7 +78,7 @@ a:hover {
     border-radius: 20px;
     background: #fff;
     padding: $base-spacing/4 $base-spacing;
-    color: $light-color;
+    color: $medium-gray-color;
 }
 .button:hover {
     background: $blue-color;
@@ -72,6 +87,12 @@ a:hover {
 }
 .rrssb-buttons {
     margin: $base-spacing 0;
+}
+.different-highlight {
+    color: inherit;
+}
+.different-highlight:hover {
+    color: $blue-color;
 }
 
 /* Structure
@@ -187,6 +208,13 @@ footer {
         display: inline-block;
     }
     padding: inherit 2px;
+    @media (max-width: $break-small) {
+        padding: 0 2px;
+        .button {
+            margin: 2px 0;
+        }
+        margin-bottom: 10px;
+    }
 }
 
 /* Post
@@ -207,9 +235,6 @@ hr {
     font-size: 15px;
     color: $light-color;
     padding: $base-spacing;
-    a:hover {
-        color: $blue-color;
-    }
 }
 .copyright {
     color: $blue-color;
