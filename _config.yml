@@ -53,11 +53,7 @@ paginate: 5
 paginate_path: "/page/:num"
 tracking_id: UA-69243698-7 # GA Tracking ID
 
-# Comments
-facebook_comments: true
-
 # Facebook Stuff
-facebook_id: yourusername # facebook.com/yourusername
 og_image: "includes/og_image.jpg" # This will show in facebook thumbnails
 
 ####################################
