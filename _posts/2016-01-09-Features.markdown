@@ -1,0 +1,16 @@
+---
+---
+
+Chaplin is a minimalistic, mobile friendly theme for Jekyll. 
+
+It features:
+
+1. [Guest Posts](http://bk2dcradle.github.io/Chaplin/2016/guest-posts.html)
+2. [Comments with Disqus](http://bk2dcradle.github.io/Chaplin/2016/Documentation.html)
+3. Author's Page
+4. Author's Profile Picture, Short Bio.
+5. Pagination using `jekyll-paginate`
+6. [Syntax Highlighting](http://bk2dcradle.github.io/Chaplin/2016/Documentation.html) for code
+7. RSS Feed
+8. [Google Analytics](http://bk2dcradle.github.io/Chaplin/2016/Documentation.html)
+9. Full Documentation on the [Demo](http://bk2dcradle.github.io/Chaplin) website.

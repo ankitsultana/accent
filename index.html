@@ -1,0 +1,31 @@
+---
+layout: default
+---
+
+<section class="intro">
+    <div class="container">
+        <h2 class="site-name">
+            {{ site.title }}
+        </h2>
+    </div>
+</section>
+
+<section class="post-list">
+    <div class="container">
+        {% for post in paginator.posts %}
+            <div class="post-preview">
+                <span class="post-title alignable pull-left">
+                    <a class="post-link underline" href="{{ post.url | prepend: site.baseurl }}">
+                        {{ post.title }}
+                    </a>
+                </span>
+                <span class="post-time alignable pull-right">
+                    <time>{{ post.date | date: '%B %d, %Y '}}</time>
+                </span>
+                <div style="clear:both"></div>
+            </div>
+        {% endfor %}
+    </div>
+</section>
+
+{% include paginate.html %}

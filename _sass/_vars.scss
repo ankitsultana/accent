@@ -1,0 +1,29 @@
+$font-stack-one: 'ubuntu';
+$font-stack-two: 'Source Sans Pro';
+$font-stack-three: 'Montserrat';
+$code-font: 'Menlo', 'Roboto Mono';
+
+// Fonts and spacing
+$base-font-size: 1.2em;
+$base-line-height: 1.5;
+$base-spacing: $base-line-height * 1em;
+$small-spacing: $base-spacing / 2;
+$max-width: 800px;
+
+$break-small: 480px;
+$break-large: 980px;
+
+$big-circle-size: 30px;
+$footer-size: 160px;
+$about-image-size: 100px;
+
+$blue-color: #2358D1;
+$underline-color: #E1E1E1;
+$light-color: #D4D4D4;
+$medium-gray-color: #999;
+$light-gray-color: #ccc;
+$git-black-color: #333333;
+$well-color: #f7f7f7;
+
+/* Solarized Colors */
+$sol-base1: #93a1a1;

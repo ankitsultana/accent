@@ -1,0 +1,25 @@
+{% if paginator.total_pages > 1 %}
+<div class="pagination container" role="pagination">
+    {% assign url = site.baseurl | append: "/" %}
+    {% if paginator.previous_page %}
+        {% if paginator.previous_page > 1 %}
+            {% assign prev = 'page/' | append: paginator.previous_page %}
+        {% endif %}
+        <div class="alignable pull-left">
+            <a class="prev button" href="{{ url | append: prev }}" title="articles new">&larr; Prev</a>
+        </div>
+    {% else %}
+        <div><a class="prev button href="""></a></div>
+    {% endif %}
+    <div style="text-align: center;">
+        <span>Page {{paginator.page}} of {{paginator.total_pages}}</span>
+    </div>
+    {% if paginator.next_page %}
+        <div style="text-align: right">
+            <a class="next button" href="{{ url | append: 'page/' | append: paginator.next_page }}" title="articles old">Next &rarr;</a>
+        </div>
+    {% else %}
+        <!-- div class="alignable pull-left text-right"><span class="next disabled">Next</span></div -->
+    {% endif %}
+</div>
+{% endif %}

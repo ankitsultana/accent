@@ -1,0 +1,21 @@
+<div class="container">
+    <hr />
+    {% if site.profile_picture %}
+        <div id="img-about">
+            <img class="about-img pull-left" src="{{ site.profile_picture }}">
+        </div>
+        <div class="about-stub">
+            <h2 style="font-family: Montserrat">
+                {% if page.author %}
+                    {{ page.author }}
+                {% else %}
+                    {{ site.author }}
+                {% endif %}
+            </h2>
+            <p id="about-description">
+                {{ site.description }}
+            </p>
+        </div>
+    {% endif %}
+</div>
+<div style="clear:both"></div>

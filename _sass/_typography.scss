@@ -1,0 +1,91 @@
+// @import url("//fonts.googleapis.com/css?family=Merriweather:400,300,700");
+@import "syntax_highlighting";
+@import "table";
+
+.content {
+    h1, h2, h3, h4, h5, h6, dl {
+        margin: 1em 0;
+    }
+    code {
+        font-size: $base-font-size;
+    }
+    .post-title {
+        margin-top: 0.1em;
+        font-size: 40px;
+        margin-bottom: $base-spacing;
+        font-family: 'Montserrat';
+        color: $blue-color;
+    }
+    h1 {
+        font-size: 35px;
+    }
+    h2 {
+        font-size: 32px;
+    }
+    h3 {
+        font-size: 29px;
+    }
+    h4 {
+        font-size: 26px;
+    }
+    h5 {
+        font-size: 23px;
+    }
+    h6 {
+        font-size: 20px;
+    }
+    p {
+        font-size: $base-font-size;
+        margin: $base-spacing/3 0;
+        font-weight: lighter;
+    }
+    .lead {
+        font-style: italic;
+    }
+    a {
+        text-decoration: none;
+        border-bottom: 2px solid $underline-color;
+    }
+    a:hover {
+        color: inherit;
+        -webkit-transition: 0.4s ease;
+        -moz-transition: 0.4s ease;
+        border-bottom: 2px solid $blue-color;
+    }
+    blockquote {
+        font-size: $base-font-size;
+        padding: 0 0 0 $base-spacing;
+        margin: $base-spacing 0;
+        color: $medium-gray-color;
+        line-height: 1.8;
+        border-left: $small-spacing solid $light-gray-color;
+        font-style: italic;
+    }
+    img {
+        width: auto;
+        height: auto;
+        max-width: 100%;
+        max-height: 100%;
+        margin: 0.1em 0;
+    }
+
+    p > code {
+      color: $git-black-color;
+      padding: 0.1em 0.1em 0.1em 0.1em;
+      border-radius: 0.3em;
+    }
+    ul, ol {
+        padding: $base-spacing/3 $base-spacing;
+    }
+    ul li {
+      list-style-type: circle;
+      font-size: $base-font-size;
+      font-weight: lighter;
+      margin: 1em 0em 1em 0.5em;
+    }
+    ol li {
+      font-size: $base-font-size;
+      font-weight: lighter;
+      margin: 1em 0em 1em 0.5em;
+    }
+}

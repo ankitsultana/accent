@@ -1,0 +1,57 @@
+# User Settings | Edit there as per required
+
+title: bleu
+email: your@email.com
+author: bleu
+description: >
+    bleu is, as Trump would put it, the best
+
+url: "http://ankitsultana.me"
+baseurl: "/bleu"
+twitter_username: AnkitSultana
+github_username: bk2dcradle
+
+permalink: /:title.html
+
+favicon: true
+favicon_location: "images/favicon.ico"
+subscribe_button: true
+about_footer: true
+short_bio: Lorem Ipsum Dolor
+profile_picture: images/temp.jpg
+paginate: 5
+paginate_path: "/page/:num"
+tracking_id: # GA Tracking ID
+
+# Comments
+facebook_comments: true
+
+
+# Facebook Stuff
+facebook_id: yourusername # facebook.com/yourusername
+og_image: "includes/og_image.jpg" # This will show in facebook thumbnails
+
+# Build Settings | Don't Touch
+markdown: kramdown
+
+gems:
+    - jekyll-paginate
+
+sass:
+    style: compressed
+    sass_dir: _sass
+
+# Scopes
+defaults:
+    -
+        scope:
+            path:   ""
+            type:   "pages"
+        values:
+            layout: "page"
+    -
+        scope:
+            path:   ""
+            type:   "posts"
+        values:
+            layout: "post"
