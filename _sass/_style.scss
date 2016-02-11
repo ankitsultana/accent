@@ -27,13 +27,21 @@ body {
 #intro {
     color: $medium-gray-color;
     text-align: center;
-    font-size: 30px;
+    font-size: 17px;
+    margin-bottom: 20px;
     font-family: 'Montserrat';
     @media (max-width: $break-small) {
         height: 100%;
     }
-    .bolder {
-        color: #000;
+    span {
+        padding: 0.05em 0.5em;
+        border-radius: 15px;
+        background: #000;
+        color: #fff;
+    }
+    ::selection {
+        color: #fff;
+        background: #000;
     }
 }
 #intro-img {
