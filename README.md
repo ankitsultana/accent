@@ -8,11 +8,11 @@ I'd strongly recommend you to fork [accent](http://github.com/bk2dcradle/accent)
 keep accent up to date.
 
 If you don't want to do that, just clone [accent](http://github.com/bk2dcradle/accent) and use
-{% highlight bash %}
+
+```bash
 bundle exec jekyll serve
-{% endhighlight %}
-in the root of the accent directory, or,
-simply [download](https://github.com/bk2dcradle/accent/archive/gh-pages.zip) accent.
+```
+in the root of the accent directory, or, simply [download](https://github.com/bk2dcradle/accent/archive/gh-pages.zip) accent.
 
 ### Customization
 
@@ -38,9 +38,9 @@ twitter cards and google search results.
 
 * To create a new post, simply save the `.markdown` file in the `_posts` directory in the format.
 
-{% highlight text %}
+```
 year-month-day-name-of-the-file.markdown
-{% endhighlight %}
+```
 
 * For Syntax highlighting, accent uses *Rouge* which is the default highlighter in Jekyll 3 and above. If you don't know how to highlight a code block, [refer](http://jekyllrb.com/docs/templates/).
 
