@@ -1,15 +1,15 @@
 ---
 ---
 
-bleu is a minimalistic, mobile friendly theme for Jekyll.
+accent is a minimalistic, mobile friendly theme for Jekyll.
 
 It features:
 
-1. [Guest Posts](http://ankitsultana.me/bleu/guest-posts.html)
+1. [Guest Posts](http://ankitsultana.me/accent/guest-posts.html)
 2. Author's Page
 3. Author's Profile Picture, Short Bio.
 4. Pagination using `jekyll-paginate`
-5. [Syntax Highlighting](http://ankitsultana.me/bleu/documentation.html) for code
+5. [Syntax Highlighting](http://ankitsultana.me/accent/documentation.html) for code
 6. RSS Feed
-7. [Google Analytics](http://ankitsultana.me/bleu/documentation.html)
-8. Full Documentation on the [Demo](http://ankitsultana.me/bleu) website.
+7. [Google Analytics](http://ankitsultana.me/accent/documentation.html)
+8. Full Documentation on the [Demo](http://ankitsultana.me/accent) website.

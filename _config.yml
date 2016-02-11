@@ -2,7 +2,7 @@
 
 title: accent
 url: "http://ankitsultana.me"
-baseurl: "/bleu"
+baseurl: "/accent"
 
 # This will show up at the top of index page
 site_heading: >
@@ -13,7 +13,7 @@ author: yourname
 # This description will show up in google search results
 # (for index page) etc.
 description: >
-    bleu is, as Trump would put it, the best
+    accent is, as Trump would put it, the best
 
 # Toggle your short bio, which will displayed on your index page
 # Just toggle it and run jekyll again to see

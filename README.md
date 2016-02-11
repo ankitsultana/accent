@@ -1,4 +1,4 @@
-# bleu
+# accent
 A really cool and classy Jekyll Theme
 
 
