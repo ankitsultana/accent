@@ -17,7 +17,7 @@ description: >
 
 # Toggle your short bio, which will displayed on your index page
 # Just toggle it and run jekyll again to see
-intro: true
+intro: false
 # This will be displayed in your intro
 short_bio: >
     Welcome! This is <span>accent</span>, a mobile friendly theme for Jekyll. The main feature of this
