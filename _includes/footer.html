@@ -1,12 +1,12 @@
 <footer>
     {% include paginate.html %}
     {% include suggestion.html %}
-    {% if page.url == "/about" %}
-    <div class="container" style="text-align: center; margin-bottom: 20px">
-        <a target="_blank" class="button" href="https://twitter.com/{{ site.twitter_username }}">
-            Follow me on twitter
-        </a>
-    </div>
+    {% if page.url == "/about" or paginator.total_pages == 1 %}
+        <div class="container" style="text-align: center; margin-bottom: 20px">
+            <a target="_blank" class="button" href="https://twitter.com/{{ site.twitter_username }}">
+                Follow me on twitter
+            </a>
+        </div>
     {% endif %}
     <hr />
     <div class="user-footer">
