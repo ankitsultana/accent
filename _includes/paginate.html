@@ -15,7 +15,7 @@
         <span>Page {{paginator.page}} of {{paginator.total_pages}}</span>
     </div>
     {% if paginator.next_page %}
-        <div style="text-align: right">
+        <div class="alignable pull-right" style="text-align: right">
             <a class="button" href="{{ url | append: 'page/' | append: paginator.next_page }}" title="articles old">Next &rarr;</a>
         </div>
     {% else %}
