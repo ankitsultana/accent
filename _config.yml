@@ -25,7 +25,7 @@ profile_picture: images/temp.jpg
 paginate: 5
 paginate_path: "/page/:num"
 tracking_id: # GA Tracking ID
-intro: true
+intro: false
 
 # Comments
 facebook_comments: true
