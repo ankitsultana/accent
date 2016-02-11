@@ -1,0 +1,27 @@
+{% if site.comments %}
+    <aside id="comments" class="disqus">
+    	<div class="container">
+    		<h3 class="alignable pull-left"> Comments </h3> <h3 class="alignable pull-right"> <i class="icon-disqus"></i></h3>
+    		<!--
+    	  		Copy the universal code from Disqus. In particular, the div with id #disqus_thread and the following Javascript
+    			As an Example see below.
+    			Start here
+    	   	-->
+            <div id="disqus_thread"></div>
+                <script>
+                    var disqus_config = function () {
+                        this.page.url = 'http://ankitsultana.me'; // Replace PAGE_URL with your page's canonical URL variable
+                        this.page.identifier = '/accent'; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+                    };
+
+                    (function() { // DON'T EDIT BELOW THIS LINE
+                        var d = document, s = d.createElement('script');
+                        s.src = '//accentjekyll.disqus.com/embed.js';
+                        s.setAttribute('data-timestamp', +new Date());(d.head || d.body).appendChild(s);})();
+                </script>
+                <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+    		<!--
+    	  		End here
+    	  	-->
+    </aside>
+{% endif %}
