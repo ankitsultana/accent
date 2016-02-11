@@ -17,10 +17,28 @@ body {
 .site-name {
     color: $blue-color;
 }
+.faded {
+    color: $light-color;
+    font-weight: lighter;
+}
+
+/* Intro
+* * * * * * * * * * * */
+#intro {
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Montserrat';
+    @media (max-width: $break-small) {
+        height: 100%;
+    }
+}
 
 /* Links
 * * * * * * * * * * * */
 
+.hide {
+    display: none;
+}
 a {
     text-decoration: none;
     color: inherit;

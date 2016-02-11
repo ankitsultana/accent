@@ -1,6 +1,9 @@
 # User Settings | Edit there as per required
 
 title: bleu
+site_heading: >
+    foo <span class="faded">'s blog</span>
+
 email: your@email.com
 author: bleu
 description: >
@@ -22,16 +25,23 @@ profile_picture: images/temp.jpg
 paginate: 5
 paginate_path: "/page/:num"
 tracking_id: # GA Tracking ID
+intro: true
 
 # Comments
 facebook_comments: true
-
 
 # Facebook Stuff
 facebook_id: yourusername # facebook.com/yourusername
 og_image: "includes/og_image.jpg" # This will show in facebook thumbnails
 
-# Build Settings | Don't Touch
+####################################
+####################################
+####################################
+### Build Settings | Don't Touch ###
+####################################
+####################################
+####################################
+
 markdown: kramdown
 
 gems:

@@ -1,8 +1,10 @@
-// @import url("//fonts.googleapis.com/css?family=Merriweather:400,300,700");
 @import "syntax_highlighting";
 @import "table";
 
 .content {
+    p {
+        line-height: $base-line-height;
+    }
     h1, h2, h3, h4, h5, h6, dl {
         margin: 1em 0;
     }
@@ -35,7 +37,7 @@
         font-size: 20px;
     }
     p {
-        font-size: $base-font-size;
+        font-size: 19px;
         margin: $base-spacing/3 0;
         font-weight: lighter;
     }
@@ -51,6 +53,16 @@
         -webkit-transition: 0.4s ease;
         -moz-transition: 0.4s ease;
         border-bottom: 2px solid $blue-color;
+    }
+    .anchorjs-link {
+        border: none;
+    }
+    .anchorjs-link:hover {
+        color: $blue-color;
+        border: none;
+    }
+    .hide {
+        display: inline-block;
     }
     blockquote {
         font-size: $base-font-size;
@@ -75,17 +87,21 @@
       border-radius: 0.3em;
     }
     ul, ol {
-        padding: $base-spacing/3 $base-spacing;
+        padding: $base-spacing/5 $base-spacing;
     }
-    ul li {
-      list-style-type: circle;
-      font-size: $base-font-size;
+    ul {
+        list-style-type: circle;
+    }
+    ol {
+        list-style-type: decimal;
+    }
+    li {
+      font-size: 19px;
       font-weight: lighter;
-      margin: 1em 0em 1em 0.5em;
+      margin: 0.8em 0em 0.8em 0.5em;
     }
-    ol li {
-      font-size: $base-font-size;
-      font-weight: lighter;
-      margin: 1em 0em 1em 0.5em;
+    li p {
+        font-size: 19px;
     }
+
 }

@@ -1,16 +1,15 @@
 ---
 ---
 
-Chaplin is a minimalistic, mobile friendly theme for Jekyll. 
+bleu is a minimalistic, mobile friendly theme for Jekyll.
 
 It features:
 
-1. [Guest Posts](http://bk2dcradle.github.io/Chaplin/2016/guest-posts.html)
-2. [Comments with Disqus](http://bk2dcradle.github.io/Chaplin/2016/Documentation.html)
-3. Author's Page
-4. Author's Profile Picture, Short Bio.
-5. Pagination using `jekyll-paginate`
-6. [Syntax Highlighting](http://bk2dcradle.github.io/Chaplin/2016/Documentation.html) for code
-7. RSS Feed
-8. [Google Analytics](http://bk2dcradle.github.io/Chaplin/2016/Documentation.html)
-9. Full Documentation on the [Demo](http://bk2dcradle.github.io/Chaplin) website.
+1. [Guest Posts](http://ankitsultana.me/bleu/guest-posts.html)
+2. Author's Page
+3. Author's Profile Picture, Short Bio.
+4. Pagination using `jekyll-paginate`
+5. [Syntax Highlighting](http://ankitsultana.me/bleu/documentation.html) for code
+6. RSS Feed
+7. [Google Analytics](http://ankitsultana.me/bleu/documentation.html)
+8. Full Documentation on the [Demo](http://ankitsultana.me/bleu) website.
