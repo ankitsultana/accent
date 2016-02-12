@@ -5,12 +5,15 @@ accent is a minimalistic, mobile friendly theme for Jekyll.
 
 It features:
 
-1. [Guest Posts](http://ankitsultana.me/accent/guest-posts.html)
-2. [Author's Page](http://ankitsultana.me/accent/about)
-3. Author's Profile Picture, Short Bio.
-4. Pagination using `jekyll-paginate`
-5. [Syntax Highlighting](http://ankitsultana.me/accent/documentation.html) for code
-6. [RSS Feed](http://ankitsultana.me/accent/feed.xml)
-7. [Google Analytics](http://ankitsultana.me/accent/documentation.html)
-8. A [404](http://ankitsultana.me/accent/404.html) page.
-9. Full Documentation on the [Demo](http://ankitsultana.me/accent) website.
+1. Customizable [accent](http://ankitsultana.me/accent/documentation.html)
+2. Comments with Disqus
+3. [Permalinks](http://ankitsultana.me/accent/testing.html) for headers
+4. [Guest Posts](http://ankitsultana.me/accent/guest-posts.html)
+5. [Author's Page](http://ankitsultana.me/accent/about)
+6. Author's Profile Picture, Short Bio.
+7. Pagination using `jekyll-paginate`
+8. [Syntax Highlighting](http://ankitsultana.me/accent/documentation.html) for code
+9. [RSS Feed](http://ankitsultana.me/accent/feed.xml)
+10. [Google Analytics](http://ankitsultana.me/accent/documentation.html)
+11. A [404](http://ankitsultana.me/accent/404.html) page.
+12. Full Documentation on the [Demo](http://ankitsultana.me/accent) website.

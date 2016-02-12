@@ -11,7 +11,11 @@
     <hr />
     <div class="user-footer">
         <div class="copyright alignable pull-left">
-            <h2> &copy;{{ site.title }}</h2>
+            {% if site.copyright %}
+                <h2> &copy;{{ site.copyright }}</h2>
+            {% else %}
+                <h2> &copy;{{ site.title }}</h2>
+            {% endif %}
         </div>
         <div class="alignable pull-right">
             <a target="_blank" href="https://twitter.com/{{ site.twitter_username }}" class="button">

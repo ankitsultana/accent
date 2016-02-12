@@ -13,8 +13,10 @@ author: yourname
 # This description will show up in google search results
 # (for index page) etc.
 description: >
-    accent is, as Trump would put it, the best
+    accent is, as Trump would put it, the best Jekyll theme around
 
+# This will what will show against &copy; in the footer
+copyright: accent
 # Toggle your short bio, which will displayed on your index page
 # Just toggle it and run jekyll again to see
 intro: false
@@ -48,7 +50,7 @@ facebook_id: yourusername
 favicon: true
 favicon_location: "images/favicon.ico"
 
-profile_picture: images/temp.jpg
+profile_picture: images/temp.png
 paginate: 5
 paginate_path: "/page/:num"
 tracking_id: UA-69243698-7 # GA Tracking ID

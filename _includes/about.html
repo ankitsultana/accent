@@ -1,14 +1,19 @@
 <div class="container">
     <hr />
-    {% if site.profile_picture %}
+    {% if site.about_footer %}
         {% if page.profile_picture %}
             {% assign profile_picture = page.profile_picture %}
         {% else %}
             {% assign profile_picture = site.profile_picture %}
         {% endif %}
-        <div id="img-about">
-            <img class="about-img pull-left" src="{{ profile_picture }}">
-        </div>
+        {% if profile_picture %}
+            <div id="img-about">
+                <img class="about-img pull-left" src="{{ profile_picture }}">
+            </div>
+        {% else %}
+            <div class="no-image" id="img-about">
+            </div>
+        {% endif %}
         <div class="about-stub">
             {% if page.author_site %}
                 {% assign author_site = page.author_site %}
