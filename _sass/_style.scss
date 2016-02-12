@@ -162,13 +162,15 @@ footer {
     .post-time {
         color: $light-color;
     }
-    @media (max-width: $break-small) {
-        .post-title {
+    @media (max-width: $break-medium) {
+        .post-time {
+            margin-top: $base-spacing/2;
             display: block;
             float: none;
         }
-        .post-time {
-            margin-top: $base-spacing/2;
+    }
+    @media (max-width: $break-small) {
+        .post-title {
             display: block;
             float: none;
         }
