@@ -55,8 +55,9 @@ paginate: 5
 paginate_path: "/page/:num"
 tracking_id: UA-69243698-7 # GA Tracking ID
 
-# Facebook Stuff
-og_image: "includes/og_image.jpg" # This will show in facebook thumbnails
+# Social Stuff | open graph and twitter cards
+og_image: "images/accent.png" # This will show in facebook thumbnails
+twitter_image: "images/accent.png" # This will show in twitter cards
 
 ####################################
 ####################################
