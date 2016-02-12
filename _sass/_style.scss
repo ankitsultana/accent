@@ -21,6 +21,16 @@ body {
     color: $light-color;
     font-weight: lighter;
 }
+.page-suggestion {
+    @media (max-width: $break-medium) {
+        text-align: center;
+        a {
+            display: block;
+            float: none;
+            margin: $base-spacing 1.3px;
+        }
+    }
+}
 
 /* Intro
 * * * * * * * * * * * */
