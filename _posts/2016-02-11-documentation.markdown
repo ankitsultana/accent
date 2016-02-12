@@ -45,6 +45,8 @@ year-month-day-name-of-the-file.markdown
 
 * To set up Google Analytics tracking id, just set the `tracking_id` variable in `_config.yml`.
 
+* For comments, *accent* uses <a class="button disabled">Disqus</a>. To set comments on your site, just paste the **universal code** in `_includes/disqus.html`.
+
 ---
 
 ### License

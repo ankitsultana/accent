@@ -1,7 +1,7 @@
 ---
 ---
 
-accent is a minimalistic, mobile friendly theme for Jekyll.
+This is <a class="disabled button">accent</a> a minimal, mobile friendly theme for <a class="disabled button">Jekyll</a>.
 
 It features:
 

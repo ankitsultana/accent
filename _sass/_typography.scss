@@ -41,9 +41,6 @@
         margin: $base-spacing/3 0;
         font-weight: lighter;
     }
-    .lead {
-        font-style: italic;
-    }
     a {
         text-decoration: none;
         border-bottom: 2px solid $underline-color;
@@ -53,6 +50,19 @@
         -webkit-transition: 0.4s ease;
         -moz-transition: 0.4s ease;
         border-bottom: 2px solid $blue-color;
+    }
+    .disabled {
+        font-size: 17px;
+        color: #fff;
+        background: $blue-color;
+        border: none;
+        padding: $base-spacing/4 $base-spacing/2;
+    }
+    .disabled:hover {
+        color: #fff;
+        background: $blue-color;
+        border: none;
+        padding: $base-spacing/4 $base-spacing/2;
     }
     .anchorjs-link {
         border: none;
