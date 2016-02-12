@@ -1,7 +1,7 @@
 <footer>
     {% include paginate.html %}
     {% include suggestion.html %}
-    {% if page.url == "/about" or paginator.total_pages == 1 %}
+    {% if page.url == "/about" or paginator.total_pages == 1 or page.title == "404" %}
         <div class="container" style="text-align: center; margin-bottom: 20px">
             <a target="_blank" class="button" href="https://twitter.com/{{ site.twitter_username }}">
                 Follow me on twitter
