@@ -1,0 +1,5 @@
+---
+layout: notfound
+title: 404
+---
+Click on the little circle to get back
