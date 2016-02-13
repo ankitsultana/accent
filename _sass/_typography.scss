@@ -16,7 +16,7 @@
         font-size: 40px;
         margin-bottom: $base-spacing;
         font-family: 'Montserrat';
-        color: $blue-color;
+        color: $accent-color;
     }
     h1 {
         font-size: 35px;
@@ -49,18 +49,18 @@
         color: inherit;
         -webkit-transition: 0.4s ease;
         -moz-transition: 0.4s ease;
-        border-bottom: 2px solid $blue-color;
+        border-bottom: 2px solid $accent-color;
     }
     .disabled {
         font-size: 17px;
         color: #fff;
-        background: $blue-color;
+        background: $accent-color;
         border: none;
         padding: $base-spacing/4 $base-spacing/2;
     }
     .disabled:hover {
         color: #fff;
-        background: $blue-color;
+        background: $accent-color;
         border: none;
         padding: $base-spacing/4 $base-spacing/2;
     }
@@ -68,7 +68,7 @@
         border: none;
     }
     .anchorjs-link:hover {
-        color: $blue-color;
+        color: $accent-color;
         border: none;
     }
     .hide {

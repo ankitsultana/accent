@@ -20,7 +20,7 @@ You can edit the variables in `_config.yml` as per your needs. Edit only the var
 
 Most of the variables are self explanatory. Notes about few of the non obvious ones:
 
-1. You can change the **hex value** of the variable `$blue-color` in `_sass/_style.scss` to any color value that you want. This will change the accent of the theme.
+1. You can change the **hex value** of the variable `$accent-color` in `_sass/_style.scss` to any color value that you want. This will change the accent of the theme.
 
 2. Set `intro` to `true` to reveal a short bio section on the index page.
 

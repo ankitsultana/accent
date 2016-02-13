@@ -15,7 +15,7 @@ body {
     overflow: auto;
 }
 .site-name {
-    color: $blue-color;
+    color: $accent-color;
 }
 .faded {
     color: $light-color;
@@ -58,7 +58,7 @@ body {
     width: 100px;
     height: 100px;
     border-radius: 50%;
-    border: 2px solid $blue-color;
+    border: 2px solid $accent-color;
 }
 
 /* Links
@@ -79,7 +79,7 @@ a {
 }
 a:hover {
     text-decoration: none;
-    color: $blue-color;
+    color: $accent-color;
 }
 .underline {
     border-bottom: 2px solid $underline-color;
@@ -88,7 +88,7 @@ a:hover {
     color: inherit;
     -webkit-transition: 0.4s ease;
     -moz-transition: 0.4s ease;
-    border-bottom: 2px solid $blue-color;
+    border-bottom: 2px solid $accent-color;
 }
 .button {
     font-weight: lighter;
@@ -99,7 +99,7 @@ a:hover {
     color: $medium-gray-color;
 }
 .button:hover {
-    background: $blue-color;
+    background: $accent-color;
     color: #fff;
     -webkit-transition: 0.3s ease;
 }
@@ -110,7 +110,7 @@ a:hover {
     color: inherit;
 }
 .different-highlight:hover {
-    color: $blue-color;
+    color: $accent-color;
 }
 
 /* Structure
@@ -195,7 +195,7 @@ footer {
     padding: $base-spacing $base-spacing;
     width: 100%;
     min-height: 70px;
-    //background-color: $blue-color;
+    //background-color: $accent-color;
 }
 .back-outer {
     text-align: center;
@@ -255,7 +255,7 @@ hr {
     padding: $base-spacing;
 }
 .copyright {
-    color: $blue-color;
+    color: $accent-color;
 }
 
 #img-about {
@@ -274,7 +274,7 @@ hr {
     height: $about-image-size/1.2;
     width: $about-image-size/1.2;
     border-radius: $about-image-size/1.2;
-    background: $blue-color;
+    background: $accent-color;
 }
 .about-stub {
     margin: 0 $base-spacing/2;
