@@ -90,3 +90,5 @@ defaults:
             type:   "posts"
         values:
             layout: "post"
+
+exclude: [vendor] # For travis ci
