@@ -2,6 +2,10 @@
 @import "table";
 
 .content {
+	sup {
+		vertical-align: super;  
+		font-size: 12px;
+	}
     p {
         line-height: $base-line-height;
     }
