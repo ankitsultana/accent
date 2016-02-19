@@ -23,7 +23,7 @@ intro: false
 # This will be displayed in your intro
 short_bio: >
     Welcome! This is <span>accent</span>, a mobile friendly theme for Jekyll. The main feature of this
-    theme, apart from being minimal is that you can change the accent color. Refer the
+    theme is that you can change the accent color. Refer the
     <a class="underline different-highlight" href="http://ankitsultana.me/accent/documentation.html">
         Documentation
     </a>

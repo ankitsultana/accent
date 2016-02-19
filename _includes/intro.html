@@ -2,10 +2,28 @@
     <div id="intro">
         <div class="container">
             <img id="intro-img" src="{{ site.profile_picture }}">
-            <p style="margin-top: 30px;" class="faded">
+            <h2>
+                {% if site.site_heading %}
+                    {{ site.site_heading }}
+                {% else %}
+                    {{ site.title }}
+                {% endif %}
+            </h2>
+            <p style="margin-top: 30px;">
                 {{ site.short_bio }}
             </p>
         </div>
-        <hr />
     </div>
+{% else %}
+    <section class="intro">
+        <div class="container">
+            <h2 class="site-name">
+                {% if site.site_heading %}
+                    {{ site.site_heading }}
+                {% else %}
+                    {{ site.title }}
+                {% endif %}
+            </h2>
+        </div>
+    </section>
 {% endif %}

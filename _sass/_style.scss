@@ -35,30 +35,41 @@ body {
 /* Intro
 * * * * * * * * * * * */
 #intro {
-    color: $medium-gray-color;
+    color: darken($light-gray-color, 40);;
+    font-weight: ligher;
     text-align: center;
-    font-size: 17px;
+    font-size: 20px;
     margin-bottom: 20px;
-    font-family: 'Montserrat';
+    font-family: 'Roboto Mono', 'sans-serif';
     @media (max-width: $break-small) {
         height: 100%;
+        font-size: 17px;
     }
     span {
         padding: 0.05em 0.5em;
         border-radius: 15px;
-        background: #000;
+        background: $accent-color;
         color: #fff;
     }
     ::selection {
         color: #fff;
         background: #000;
     }
+    h2 {
+        margin: $base-spacing 0;
+        margin-bottom: $base-spacing/1.1;
+        font-size: 27px;
+        font-family: 'ubuntu';
+        @media (max-width: $break-small) {
+            font-size: 23px;
+        }
+    }
 }
 #intro-img {
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
     border-radius: 50%;
-    border: 2px solid $accent-color;
+    border: 2px solid transparent;
 }
 
 /* Links

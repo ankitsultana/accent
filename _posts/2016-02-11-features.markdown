@@ -1,7 +1,7 @@
 ---
 ---
 
-This is <a class="disabled button">accent</a> a minimal, mobile friendly theme for <a class="disabled button">Jekyll</a>.
+This is <span class="capsule">accent</span> a minimal, mobile friendly theme for <span class="capsule">Jekyll</span>
 
 It features:
 

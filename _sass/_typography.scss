@@ -3,7 +3,7 @@
 
 .content {
 	sup {
-		vertical-align: super;  
+		vertical-align: super;
 		font-size: 12px;
 	}
     p {
@@ -67,6 +67,13 @@
         background: $accent-color;
         border: none;
         padding: $base-spacing/4 $base-spacing/2;
+    }
+    .capsule {
+        padding: $base-spacing/4 $base-spacing/2;
+        font-size: 17px;
+        border-radius: 15px;
+        background: $accent-color;
+        color: #fff;
     }
     .anchorjs-link {
         border: none;
