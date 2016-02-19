@@ -58,10 +58,10 @@ body {
     h2 {
         margin: $base-spacing 0;
         margin-bottom: $base-spacing/1.1;
-        font-size: 27px;
+        font-size: 40px;
         font-family: 'ubuntu';
         @media (max-width: $break-small) {
-            font-size: 23px;
+            font-size: 32px;
         }
     }
 }
