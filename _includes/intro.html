@@ -1,7 +1,9 @@
 {% if site.intro %}
     <div id="intro">
         <div class="container">
-            <img id="intro-img" src="{{ site.profile_picture }}">
+            {% if site.profile_picture %}
+                <img id="intro-img" src="{{ site.profile_picture }}">
+            {% endif %}
             <h2>
                 {% if site.site_heading %}
                     {{ site.site_heading }}
