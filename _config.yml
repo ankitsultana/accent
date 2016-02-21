@@ -13,13 +13,13 @@ author: yourname
 # This description will show up in google search results
 # (for index page) etc.
 description: >
-    accent is, as Trump would put it, the best Jekyll theme around
+    accent is, as Trump would put it, the best
 
 # This will what will show against &copy; in the footer
 copyright: accent
 # Toggle your short bio, which will displayed on your index page
 # Just toggle it and run jekyll again to see
-intro: false
+intro: false         # Tip: Remove the span from site_heading if intro is set to true
 # This will be displayed in your intro
 short_bio: >
     Welcome! This is <span>accent</span>, a mobile friendly theme for Jekyll. The main feature of this
