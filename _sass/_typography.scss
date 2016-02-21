@@ -2,6 +2,9 @@
 @import "table";
 
 .content {
+    hr {
+        margin: $base-spacing 0;
+    }
 	sup {
 		vertical-align: super;
 		font-size: 12px;
