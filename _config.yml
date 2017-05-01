@@ -1,7 +1,7 @@
 # User Settings | Edit there as per required
 
 title: accent
-url: "http://ankitsultana.me"
+url: "http://ankitsultana.com"
 baseurl: "/accent"
 
 # This will show up at the top of index page
@@ -24,7 +24,7 @@ intro: false         # Tip: Remove the span from site_heading if intro is set to
 short_bio: >
     Welcome! This is <span>accent</span>, a mobile friendly theme for Jekyll. The main feature of this
     theme is that you can change the accent color. Refer the
-    <a class="underline different-highlight" href="http://ankitsultana.me/accent/documentation.html">
+    <a class="underline different-highlight" href="http://ankitsultana.com/accent/documentation.html">
         Documentation
     </a>
     to know how.
@@ -57,7 +57,7 @@ tracking_id: UA-69243698-7 # GA Tracking ID
 
 # Social Stuff | open graph and twitter cards
 og_image: "images/accent.png" # This will show in facebook thumbnails
-twitter_image: "http://ankitsultana.me/images/accent.png?1234" # This will show in twitter cards
+twitter_image: "http://ankitsultana.com/images/accent.png?1234" # This will show in twitter cards
 
 ####################################
 ####################################

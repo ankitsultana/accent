@@ -1,6 +1,6 @@
 # accent
 
-#### [Demo & Documentation](http://ankitsultana.me/accent)
+#### [Demo & Documentation](http://ankitsultana.com/accent)
 
 ### Installation
 
