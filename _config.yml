@@ -69,7 +69,7 @@ twitter_image: "http://ankitsultana.com/images/accent.png?1234" # This will show
 
 markdown: kramdown
 
-gems:
+plugins:
     - jekyll-paginate
 
 sass:
